@@ -6,3 +6,12 @@
     list-style: none;
     padding: 0 0 10px 0;
 }
+
+footer a {
+    color: #aaa;
+    text-decoration: underline;
+}
+
+footer a:hover, footer a:focus {
+    text-decoration: none;
+}
