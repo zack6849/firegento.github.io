@@ -8,7 +8,10 @@ a:hover, a:focus { text-decoration: none; }
 header { text-align: center; padding: 10px 0 5px; }
 header img { width: 175px; }
 
-.blog .pagination { padding-top: 15px; font-size: 0.9em; }
+.blog .post { margin-bottom: 20px; }
+.blog .post .more { font-size: 0.9em; }
+
+.blog .pagination { padding-top: 30px; font-size: 0.9em; }
 .blog .pagination ul li { list-style: none; float:left; padding:0 7px 0 0; }
 
 .imprint ul li {
