@@ -1,0 +1,8 @@
+.inner {
+    width: 700px;
+}
+
+.imprint ul li {
+    list-style: none;
+    padding: 0 0 10px 0;
+}

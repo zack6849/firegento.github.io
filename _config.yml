@@ -1,0 +1,12 @@
+auto: true
+server: true
+permalink: none
+baseurl: http://firegento.github.io
+name: FireGento Blog
+description: FireGento Blog
+url: http://firegento.github.io
+exclude:
+- .gitignore
+- README.md
+paginate: 2
+paginate_path: "blog/page:num"
