@@ -5,8 +5,8 @@
 a { color: #c74521; text-decoration: underline; }
 a:hover, a:focus { text-decoration: none; }
 
-.blog .pagination { padding-top: 15px; }
-.blog .pagination li { float:left: padding:0 7px 0 0; }
+.blog .pagination { padding-top: 15px; font-size: 0.9em; }
+.blog .pagination ul li { list-style: none; float:left; padding:0 7px 0 0; }
 
 .imprint ul li {
     list-style: none;

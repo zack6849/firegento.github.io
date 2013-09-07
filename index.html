@@ -12,7 +12,11 @@ bodyclass: blog
 <div id="post-pagination" class="pagination">
     <ul class="pages">
         {% if paginator.previous_page %}
-        {% if paginator.previous_page != 1 %}
+        {% if paginator.previous_page == 1 %}
+        <li class="page previous">
+            <a href="/">Previous</a>
+        </li>
+        {% else %}
         <li class="page previous">
             <a href="{{ paginator.previous_page_path }}">Previous</a>
         </li>
