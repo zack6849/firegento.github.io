@@ -1,6 +1,6 @@
 auto: true
 server: true
-permalink: none
+permalink: /blog/:title
 baseurl: http://firegento.com
 name: FireGento Blog
 description: FireGento Blog
