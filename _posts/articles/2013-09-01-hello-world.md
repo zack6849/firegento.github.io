@@ -6,4 +6,4 @@ bodyclass: blog hello-world
 
 # {{page.title}}
 
-Welcome to the FireGento blog!
+Welcome to the new FireGento website!
