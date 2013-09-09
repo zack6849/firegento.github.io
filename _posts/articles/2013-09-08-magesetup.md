@@ -4,7 +4,7 @@
 -bodyclass: blog firegento-magesetup
 ---
 
-# {{page.title}}
+# FireGento_MageSetup - the fast way to setup your Magento store
 
 MageSetup is a **free community module** for Magento which simplifies the process to setup your Magento store. 
 Its broad set of features makes the shops comply to most national laws.
