@@ -1,6 +1,6 @@
 ---
 -layout: default
--title: "FireGento_MageSetup - the fast way to setup your Magento store"
+-title: FireGento_MageSetup
 -bodyclass: blog firegento-magesetup
 ---
 
