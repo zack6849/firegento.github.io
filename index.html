@@ -7,7 +7,6 @@ bodyclass: blog
 {% for post in paginator.posts %}
     <div class="post">
         {{ post.content }}
-        <a href="{{post.url}}" class="more">more..</a>
     </div>
 {% endfor %}
 
