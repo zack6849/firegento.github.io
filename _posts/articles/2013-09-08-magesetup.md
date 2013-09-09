@@ -9,8 +9,8 @@ MageSetup is a **free community module** for Magento which simplifies the proces
 Its broad set of features makes the shops comply to most national laws.
 It has evolved from **GermanSetup**, a module which has grown very famous in Germany, Austria and Switzerland. Germany is known to have very rigid laws which was the foremost reason to start this module. 
 
-What does it do?
-----------------
+## What does it do?
+
 MageSetup provides a new backend form which allows you to make a few decisions, mainly which country you are shipping from and which language(s) you are using. When submitting the form, FireGento_MageSetup does the following:
   
 * Setup **tax** configuration for worldwide shipping. It sets up all necessary **product** and **customer tax classes** as well as all tax rates and calculation rules. 
@@ -23,8 +23,7 @@ MageSetup provides a new backend form which allows you to make a few decisions, 
 
 There are many more features. Please see the [full list of features](https://github.com/firegento/firegento-magesetup/blob/development/docs/features/features.markdown) for a list of all features with screeenshots.
 
-Which countries does it support?
---------------------------------
+## Which countries does it support?
 At the moment of writing this post, we support the following countries:
 
 * Austria
@@ -37,8 +36,7 @@ At the moment of writing this post, we support the following countries:
 
 However, it is quite simple to add your own country. We will post a small developers guide to do so soon. 
 
-How to install FireGento_MageSetup?
--------------------------
+##How to install FireGento_MageSetup?
 The module can be installed via 
 
 * MagentoConnect (link will follow)
@@ -51,9 +49,7 @@ Follow the link, fill out the form and submit in order to apply the settings.
 
 **Attention:** As stated in the setup form, all tax settings will be overwritten.
 
-Who is behind FireGento_MageSetup?
-----------------------------------
-![FireGento Logo](http://www.avs-webentwicklung.de/fileadmin/images/FireGento.png "FireGento Logo")  
+## Who is behind FireGento_MageSetup?
 FireGento is a group of Magento developers, working as freelancers and in companies. Starting in 2011, we began developing free modules for the community. 
 We don't have any commercial interests. We founded an association in 2013, based in Germany, in order to organize events like the [Magento Hackathons](http://www.mage-hackathon.de/) more easily.
 GermanSetup was one of the first modules to be published, and is the most well known project up to now. It's widely used in Germany, Austria and Switzerland up to now. 
