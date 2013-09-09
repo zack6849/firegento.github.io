@@ -2,6 +2,8 @@
     width: 700px;
 }
 
+small { font-size: 0.8em; }
+
 a { color: #c74521; text-decoration: underline; }
 a:hover, a:focus { text-decoration: none; }
 
