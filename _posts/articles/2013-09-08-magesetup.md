@@ -41,11 +41,15 @@ However, it is quite simple to add your own country. We will post a small develo
 ## Requirements
 
 ### Store Views
-Prepare your store views if you have a multi language store before to proceed.
+Create new store views before proceeding if you have a multi language store. MageSetup can create the cms pages and email templates for every store view in the right language.
 
-### Language package
-All necessary locale packages should be installed before to proceed the setup. For example, if you want to support German and French countries,
-please install the locale de_DE and fr_FR. See [Magento Connect] (http://www.magentocommerce.com/magento-connect/customer-experience/internationalization-localization.html) to get the packages or install them thanks to composer and our [FireGento Module repository](http://packages.firegento.com/). With composer and our example, you should have to add the name "connect20/locale_mage_community_de_DE" and "connect20/locale_mage_community_fr_FR"
+### Language packs
+All necessary locale packages should be installed before you proceed the setup.
+For example, if you want to support German and French languages,
+please install the locales de_DE and fr_FR. See
+[Magento Connect] (http://www.magentocommerce.com/magento-connect/customer-experience/internationalization-localization.html)
+to get the packages or install them with composer and our [FireGento Module Repository](http://packages.firegento.com/).
+With composer and our example, you should add the names "connect20/locale_mage_community_de_DE" and "connect20/locale_mage_community_fr_FR"
 
 ## How to install FireGento_MageSetup?
 
@@ -57,7 +61,9 @@ The module can be installed via
 
 When the module is installed, please clear the cache, logout and login again. You will see the following hint:  
 ![Hint after Installation](https://raw.github.com/firegento/firegento-magesetup/development/docs/features/images/install-hint.png "Hint after Installation")
+
 Follow the link, fill out the form and submit in order to apply the settings.
+![Setup Form](https://raw.github.com/firegento/firegento-magesetup/development/docs/features/images/setup-overview.png "Setup Form")
 
 **Attention:** As stated in the setup form, all tax settings will be overwritten.
 
@@ -67,4 +73,6 @@ FireGento is a group of Magento developers, working as freelancers and in compan
 
 We don't have any commercial interests. We founded an association in 2013, based in Germany, in order to organize events like the [Mage Hackathons](http://www.mage-hackathon.de/) more easily.
 
-GermanSetup was one of the first modules to be published, and is the most well known project up to now. It's widely used in Germany, Austria and Switzerland up to now. It was started at a small meeting of ~15 persons at the German North Sea coast, and since then, a lot of work has been done in the free time of a couple of developers at home, at work, at conferences and meetings. 
+GermanSetup was one of the first modules to be published, and is the most well known project up to now.
+It's widely used in Germany, Austria and Switzerland.
+It was started at a small meeting of ~15 persons at the German North Sea coast, and since then, a lot of work has been done in the free time of a couple of developers at home, at work, at conferences and meetings.
