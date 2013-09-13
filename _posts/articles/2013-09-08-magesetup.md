@@ -22,7 +22,7 @@ MageSetup provides a new backend form which allows you to make a few decisions, 
 * Automatical generation of **meta data** to products
 * Saving of every **status change of newsletter subscriptions**
 
-There are many more features. Please see the [full list of features](https://github.com/firegento/firegento-magesetup/blob/development/docs/features/features.markdown) for a list of all features with screeenshots.
+There are many more features. Please see the [full list of features](https://github.com/firegento/firegento-magesetup/blob/master/docs/features/features.markdown) for a list of all features with screeenshots.
 
 ## Which countries does it support?
 
