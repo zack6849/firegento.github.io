@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
 
-# checkout the readme from the master branch
-# `git checkout https://github.com/firegento/firegento-magesetup.git; git checkout master docs/features/overview.markdown`
-
 path = `pwd`.gsub(/\n/, "")
 readme_path = File.join(path, "convert.md")
 index_path = File.join(path, "index.md")
