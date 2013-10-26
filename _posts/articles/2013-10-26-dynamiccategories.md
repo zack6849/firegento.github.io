@@ -1,0 +1,92 @@
+---
+layout: default
+title: FireGento_DynamicCategory
+bodyclass: blog firegento-magesetup
+---
+
+# [FireGento_DynamicCategory - Get dynamic categories based on Product attributes]({{page.url}})
+
+## What does it do?
+
+DynamicCategory is a **free community module** for Magento which allows you to add automatically products to a category, thanks to a set of rules based on the product attribute.
+
+The interface to set the rules is very similar to the ono to create shopping cart rules. See the [**Usage**](#usage) Chapter below to see how to use it.
+
+Module available on [Github](https://github.com/firegento/firegento-dynamiccategory)
+
+
+## Requirements
+* Magento >= 1.5
+* PHP >= 5.2.0
+
+## How to install FireGento_DynamicCategory?
+
+### Via modman
+
+- Install [modman](https://github.com/colinmollenhour/modman)
+- Use the command from your Magento installation folder: `modman clone https://github.com/firegento/firegento-dynamiccategory`
+
+### Via composer
+- Install [composer](http://getcomposer.org/download/)
+- Install [Magento Composer](https://github.com/magento-hackathon/magento-composer-installer)
+- Create a composer.json into your project like the following sample:
+
+```json
+{
+    ...
+    "require": {
+        "firegento/dynamiccategory":"*"
+    },
+    "repositories": [
+	    {
+            "type": "composer",
+            "url": "http://packages.firegento.com"
+        }
+    ],
+    "extra":{
+        "magento-root-dir": "./"
+    }
+}
+
+```
+
+- Then from your `composer.json` folder: `php composer.phar install` or `composer install`
+
+### Manually
+- You can copy the files from the folders of this repository to the same folders of your installation
+
+
+### Installation in ALL CASES
+1. Clear the cache, logout from the admin panel and then login again.
+2. You can now dynamically add products to categories based on attributes.
+
+
+<a name="usage">
+## Usage
+
+The module adds a new section "Dynamic Category Product Relater" at the tab "Category Products" while reading or editing a category into the backend.
+You can define rules for products to be included in the category.
+
+![Dynamic Category Products](https://raw.github.com/firegento/firegento-dynamiccategory/master/doc/images/screenshot-tab-dynamic-products.png)
+
+To define a rule, click on the `+` button and add one or more attributes then fill which value(s) must be valid or not to make the condition TRUE. Then it will apply the product to the current category if conditions are ok. You can set if it must be applied when only one or all conditions are valid.
+
+When you finished to define the rules, save the current category.
+
+If a rule should be defined according to a specific attribute, that attribute needs to be enabled for "Use for Promo Rule Conditions" in its attribute configuration (See Catalog > Attributes > YOUR ATTRIBUTE > Edit it).
+
+![Attribute Edit](https://raw.github.com/firegento/firegento-dynamiccategory/master/doc/images/attribute-rule-promotion.png)
+
+
+Support
+-------
+If you have any issues with this extension, open an issue on [GitHub](https://github.com/firegento/firegento-dynamiccategory/issues).
+
+Contribution
+------------
+Any contribution is highly appreciated. The best way to contribute code is to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
+
+Developer
+---------
+[http://firegento.com](http://firegento.com)  
+[@firegento](https://twitter.com/firegento)
