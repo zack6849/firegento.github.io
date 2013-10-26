@@ -2,20 +2,50 @@
     width: 700px;
 }
 
-small { font-size: 0.8em; }
+small {
+    font-size: 0.8em;
+}
 
-a { color: #c74521; text-decoration: underline; }
-a:hover, a:focus { text-decoration: none; }
+a {
+    color: #c74521;
+    text-decoration: underline;
+}
 
-header { text-align: center; padding: 10px 0 5px; }
-header img { width: 175px; }
+a:hover, a:focus {
+    text-decoration: none;
+}
 
-.blog .post { margin-bottom: 20px; }
-.blog h1 a { text-decoration: none; }
-.blog h1 a:hover { text-decoration: underline; }
+header {
+    text-align: center;
+    padding: 10px 0 5px;
+}
 
-.blog .pagination { padding-top: 30px; font-size: 0.9em; }
-.blog .pagination ul li { list-style: none; float:left; padding:0 7px 0 0; }
+header img {
+    width: 175px;
+}
+
+.blog .post {
+    margin-bottom: 20px;
+}
+
+.blog h1 a {
+    text-decoration: none;
+}
+
+.blog h1 a:hover {
+    text-decoration: underline;
+}
+
+.blog .pagination {
+    padding-top: 30px;
+    font-size: 0.9em;
+}
+
+.blog .pagination ul li {
+    list-style: none;
+    float: left;
+    padding: 0 7px 0 0;
+}
 
 .imprint ul li {
     list-style: none;
@@ -29,4 +59,46 @@ footer a {
 
 footer a:hover, footer a:focus {
     text-decoration: none;
+}
+
+#navcontainer, #subnavcontainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+#navlist, #subnavlist {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#navlist li, #subnavlist li{
+    list-style: none;
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+#navlist li a, #subnavlist li a  {
+    width: auto;
+    display: block;
+    padding: 4px 16px;
+    text-decoration: none;
+}
+
+#navlist li:last-child:after {
+    clear: both;
+}
+
+#active {
+}
+
+#subnavcontainer {
+    font-size: 80%;
+}
+#navlist li{
+    margin: 0 10px;
 }
