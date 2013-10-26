@@ -46,11 +46,12 @@ Uninstallation
 1. Remove all extension files from your Magento installation
 2. Run the following sql script in your database:
 
-{% endhighlight %}sql
+sql
+<code>
 DELETE FROM eav_attribute WHERE attribute_code = 'customer_active';
 DELETE FROM eav_attribute WHERE attribute_code = 'customer_logins_failed';
 DELETE FROM eav_attribute WHERE attribute_code = 'customer_last_login_failed';
-{% endhighlight %}
+</code>
 
 
 Support
