@@ -1,4 +1,36 @@
 ---
+menu:
+-
+    id: home
+    url: /
+-
+    id: modules
+    url: /modules
+-
+    id: contribute
+    url: /contribute
+-
+    id: about
+    url: /about
+submenu:
+-
+    id: MageSetup
+    url: /modules/magesetup
+-
+    id: Customer
+    url: /modules/customer
+-
+    id: Pdf
+    url: /modules/pdf
+-
+    id: Logger
+    url: /modules/logger
+-
+    id: DynamicCategory
+    url: /modules/dynamiccategory
+-
+    id: Debug
+    url: /modules/debug
 ---
 <!DOCTYPE html>
 <html>
@@ -40,6 +72,29 @@
                     <img src="{{site.baseurl}}/images/logo.jpg" alt="FireGento" title="FireGento" />
                 </a>
             </header>
+            <hr />
+            <section id="navcontainer">
+                <ul id="navlist">
+                    {% for element in page.menu %}
+                        {% if page.id == element.id %}
+                            <li id="active">
+                                <a href="{{element.url}}" id="current">{{element.id}}</a>
+                            </li>
+                        {% else %}
+                            <li><a href="{{element.url}}">{{element.id}}</a></li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+            </section>
+            {% if page.id == "modules" %}
+                <section id="subnavcontainer">
+                    <ul id="subnavlist">
+                        {% for element in page.submenu %}
+                            <li><a href="{{element.url}}">{{element.id}}</a></li>
+                        {% endfor %}
+                    </ul>
+                </section>
+            {% endif %}
             <hr />
             <section id="main_content">
                 {{content}}
