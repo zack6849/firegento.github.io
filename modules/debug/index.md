@@ -11,7 +11,7 @@ This extension provides some debbuging functionality for Magento.
 Facts
 -----
 - version: 1.3.0
-- [extension on GitHub](https://github.com/firegento/firegento)
+- [extension on GitHub](https://github.com/firegento/firegento-debug)
 
 Description
 -----------
